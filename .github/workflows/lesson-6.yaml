@@ -39,7 +39,7 @@ jobs:
   acceptance_test:
     needs: [deploy]
     runs-on: ubuntu-latest
-    container: cypress/included:10.3.0
+    container: cypress/included:10.11.0
     defaults:
       run:
         working-directory: frontend
